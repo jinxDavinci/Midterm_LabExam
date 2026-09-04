@@ -1,1 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vincent | Personal Portfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar navbar-expand-lg navbar-portfolio fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">Vincent<span>.dev</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mission">Mission/Vision</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HOME
+===================== -->
+<section id="home" class="pt-5 mt-5">
+  <div class="container">
+
+    <!-- Alert component -->
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+      Welcome to my portfolio! Feel free to look around and reach out through the Contact section.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <div class="hero p-4 p-md-5 mb-5">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-4 text-center">
+          <img src="photo/retouch_2025061815094644(1).jpg" class="hero-photo" alt="Profile photo of Vincent">
+        </div>
+        <div class="col-lg-8">
+          <p class="text-uppercase text-primary-emphasis mb-1">BSIT Student &middot; Web Developer</p>
+          <h1 class="display-5 mb-3">Hi, I'm Vincent.</h1>
+          <p class="lead text-body-secondary">
+            I'm an Information Technology student at Pamantasan ng Cabuyao, currently building my skills in web
+            development, programming, and database management. I enjoy solving problems, whether it's debugging
+            code or working through a chess opening.
+          </p>
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a href="#gallery" class="btn btn-primary btn-lg">View My Work</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ME ===================== -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="row g-4 mb-4">
+      <div class="col-lg-5">
+        <div class="card card-portfolio h-100">
+          <div class="card-body">
+            <h5 class="card-title">Basic Information</h5>
+            <ul class="list-unstyled text-body-secondary mb-0">
+              <li class="mb-2"><strong class="text-light">Name:</strong> Vincent</li>
+              <li class="mb-2"><strong class="text-light">Age:</strong> 19</li>
+              <li class="mb-2"><strong class="text-light">Course:</strong> BS Information Technology</li>
+              <li class="mb-2"><strong class="text-light">School:</strong> Pamantasan ng Cabuyao, College of Computing Studies</li>
+              <li class="mb-2"><strong class="text-light">Year Level:</strong> 2nd Year</li>
+              <li><strong class="text-light">Hometown:</strong> Cabuyao, Laguna</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7">
+        <div class="card card-portfolio h-100">
+          <div class="card-body">
+            <h5 class="card-title mb-3">Skills</h5>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between"><span>HTML5 &amp; CSS3</span><span>79%</span></div>
+              <div class="progress" role="progressbar" aria-label="HTML and CSS" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width:79%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between"><span>Bootstrap</span><span>68%</span></div>
+              <div class="progress" role="progressbar" aria-label="Bootstrap" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width:68%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between"><span>Jav</span><span>89%</span></div>
+              <div class="progress" role="progressbar" aria-label="Java" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width:89%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between"><span>MySQL</span><span>100%</span></div>
+              <div class="progress" role="progressbar" aria-label="MySQL" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-primary" style="width:100%"></div>
+              </div>
+            </div>
+
+            <hr class="border-secondary">
+
+            <h6 class="mb-2">Interests</h6>
+            <span class="badge badge-skill me-1 mb-1">Chess</span>
+            <span class="badge badge-skill me-1 mb-1">Web Development</span>
+            <span class="badge badge-skill me-1 mb-1">Problem Solving</span>
+            <span class="badge badge-skill me-1 mb-1">Data Structures</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion" id="aboutAccordion">
+      <div class="accordion-item card-portfolio">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#eduElem">
+            Elementary Education
+          </button>
+        </h2>
+        <div id="eduElem" class="accordion-collapse collapse show" data-bs-parent="#aboutAccordion">
+          <div class="accordion-body text-body-secondary">Completed elementary education at St. Clare of Assisi.</div>
+        </div>
+      </div>
+      <div class="accordion-item card-portfolio">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eduHS">
+            Junior &amp; Senior High School
+          </button>
+        </h2>
+        <div id="eduHS" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+          <div class="accordion-body text-body-secondary">Took the STEM/ICT strand, which introduced me to programming fundamentals and sparked my interest in IT.</div>
+        </div>
+      </div>
+      <div class="accordion-item card-portfolio">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eduCollege">
+            College &mdash; BSIT
+          </button>
+        </h2>
+        <div id="eduCollege" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+          <div class="accordion-body text-body-secondary">Currently enrolled in the BS Information Technology program at Pamantasan ng Cabuyao, taking up courses in web technologies, data structures and algorithms, and information management.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section id="gallery" class="py-5 bg-body-tertiary bg-opacity-10">
+  <div class="container">
+    <h2 class="section-title">Gallery</h2>
+
+    <!-- Carousel -->
+    <div id="galleryCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+          <img src=" " class="d-block w-100" alt="Photo 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://placehold.co/1200x420/16295c/eef2fb?text=Photo+2" class="d-block w-100" alt="Photo 2">
+        </div>
+        <div class="carousel-item">
+          <img src=" " class="d-block w-100" alt="Photo 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Photo grid with modals -->
+    <div class="row g-4">
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card card-portfolio h-100">
+          <img src=" " class="gallery-thumb" alt="Gallery photo 1">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <span class="text-body-secondary small">Photo 1</span>
+            <button class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#photoModal1">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card card-portfolio h-100">
+          <img src=" " class="gallery-thumb" alt="Gallery photo 2">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <span class="text-body-secondary small">Photo 2</span>
+            <button class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#photoModal2">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card card-portfolio h-100">
+          <img src=" " class="gallery-thumb" alt="Gallery photo 3">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <span class="text-body-secondary small">Photo 3</span>
+            <button class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#photoModal3">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card card-portfolio h-100">
+          <img src=" " class="gallery-thumb" alt="Gallery photo 4">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <span class="text-body-secondary small">Photo 4</span>
+            <button class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#photoModal4">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card card-portfolio h-100">
+          <img src=" " class="gallery-thumb" alt="Gallery photo 5">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <span class="text-body-secondary small">Photo 5</span>
+            <button class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#photoModal5">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="card card-portfolio h-100">
+          <img src=" " class="gallery-thumb" alt="Gallery photo 6">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <span class="text-body-secondary small">Photo 6</span>
+            <button class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#photoModal6">View</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modals for gallery photos -->
+<div class="modal fade" id="photoModal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content card-portfolio">
+      <div class="modal-header"><h5 class="modal-title">Photo 1</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body"><img src="https://placehold.co/800x600/101d42/eef2fb?text=Photo+1" class="img-fluid rounded" alt="Photo 1 enlarged"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="photoModal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content card-portfolio">
+      <div class="modal-header"><h5 class="modal-title">Photo 2</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body"><img src="https://placehold.co/800x600/16295c/eef2fb?text=Photo+2" class="img-fluid rounded" alt="Photo 2 enlarged"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="photoModal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content card-portfolio">
+      <div class="modal-header"><h5 class="modal-title">Photo 3</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body"><img src="https://placehold.co/800x600/0a1330/eef2fb?text=Photo+3" class="img-fluid rounded" alt="Photo 3 enlarged"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="photoModal4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content card-portfolio">
+      <div class="modal-header"><h5 class="modal-title">Photo 4</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body"><img src="https://placehold.co/800x600/2f6fed/eef2fb?text=Photo+4" class="img-fluid rounded" alt="Photo 4 enlarged"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="photoModal5" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content card-portfolio">
+      <div class="modal-header"><h5 class="modal-title">Photo 5</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body"><img src="https://placehold.co/800x600/5b8def/1a1300?text=Photo+5" class="img-fluid rounded" alt="Photo 5 enlarged"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="photoModal6" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content card-portfolio">
+      <div class="modal-header"><h5 class="modal-title">Photo 6</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body"><img src="https://placehold.co/800x600/f2b134/1a1300?text=Photo+6" class="img-fluid rounded" alt="Photo 6 enlarged"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== MISSION / VISION ===================== -->
+<section id="mission" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Mission &amp; Vision of Pamantasan ng Cabuyao (PNC)</h2>
+
+    <div class="row g-4 mb-4">
+      <div class="col-md-6">
+        <div class="card card-portfolio h-100">
+          <div class="card-body">
+            <span class="badge bg-primary mb-2">Mission</span>
+            <p class="text-body-secondary mb-0">
+              As a higher education institution, PNC is dedicated to equipping students with the knowledge,
+              skills, and values they need to reach their professional goals, while preparing them to lead
+              and serve toward national development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card card-portfolio h-100">
+          <div class="card-body">
+            <span class="badge bg-primary mb-2">Vision</span>
+            <p class="text-body-secondary mb-0">
+              PNC aspires to be a premier institution of higher learning in Region IV-A, producing globally
+              competitive and values-driven professionals and leaders who contribute to community development
+              and nation-building.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-portfolio">
+      <div class="card-body">
+        <h6 class="mb-3">Quick Facts</h6>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-transparent text-body-secondary d-flex justify-content-between">
+            Founded <span class="badge badge-skill">2003</span>
+          </li>
+          <li class="list-group-item bg-transparent text-body-secondary d-flex justify-content-between">
+            Location <span class="badge badge-skill">Cabuyao, Laguna</span>
+          </li>
+          <li class="list-group-item bg-transparent text-body-secondary d-flex justify-content-between">
+            Region <span class="badge badge-skill">Region IV-A (CALABARZON)</span>
+          </li>
+        </ul>
+        <p class="small text-body-secondary mt-3 mb-0">
+          Note: Mission and Vision statements are paraphrased from PNC's official website for this project.
+          Please verify the exact current wording at pnc.edu.ph before final submission.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="py-5 bg-body-tertiary bg-opacity-10">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="row g-4">
+      <div class="col-lg-7">
+        <div class="card card-portfolio">
+          <div class="card-body">
+            <form>
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Juan Dela Cruz" required>
+              </div>
+              <div class="mb-3">
+                <label for="emailAddress" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <select class="form-select" id="subject">
+                  <option selected>General Inquiry</option>
+                  <option>Job Opportunity</option>
+                  <option>Project Collaboration</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="messageBox" class="form-label">Message</label>
+                <textarea class="form-control" id="messageBox" rows="4" placeholder="Write your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card card-portfolio h-100">
+          <div class="card-body">
+            <h5 class="mb-3">Get In Touch</h5>
+            <span class="badge bg-success mb-3">Open to internship opportunities</span>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-transparent text-body-secondary">
+                <strong class="text-light">Email:</strong> vincent.student@example.com
+              </li>
+              <li class="list-group-item bg-transparent text-body-secondary">
+                <strong class="text-light">Phone:</strong> +63 900 000 0000
+              </li>
+              <li class="list-group-item bg-transparent text-body-secondary">
+                <strong class="text-light">Address:</strong> Cabuyao, Laguna, Philippines
+              </li>
+              <li class="list-group-item bg-transparent text-body-secondary">
+                <strong class="text-light">School:</strong> Pamantasan ng Cabuyao, CCS
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="py-4">
+  <div class="container text-center">
+    <p class="mb-1">Vincent<span class="text-warning">.dev</span></p>
+    <p class="small text-body-secondary mb-0">&copy; 2026 Vincent &middot; BSIT Student, Pamantasan ng Cabuyao</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
 
